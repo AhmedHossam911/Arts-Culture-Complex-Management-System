@@ -1,0 +1,23 @@
+{
+    "name": "helwan-arts/theater-management",
+    "description": "Theater Hall Management System for Helwan University - Faculty of Arts and Culture Complex",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "vlucas/phpdotenv": "^5.4",
+        "phpmailer/phpmailer": "^6.6",
+        "firebase/php-jwt": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
